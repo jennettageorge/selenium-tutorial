@@ -1,6 +1,6 @@
 # Python Selenium Flask Example
 
-In the next example, we create a test case with pytest and Selenium for a Flask web application. We test for a response from an HTML form.
+In the next example, we create a test case with `pytest` and Selenium for a Flask web application. We test for a response from an HTML form.
 
   app.py
   ├───static
@@ -13,12 +13,12 @@ In the next example, we create a test case with pytest and Selenium for a Flask 
 
 To run:
 
-'''bash
+```bash
 set FLASK_APP=app.py
 flask run
-'''
+```
 
-and in a seperate terminal, run
+and in a separate terminal, run
 
 ```bash
 pytest
